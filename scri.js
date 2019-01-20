@@ -9,9 +9,10 @@ var random1 = key1[Math.floor(Math.random() * key1.length)];
 var random2 = key2[Math.floor(Math.random() * key2.length)];
 var random3 = key3[Math.floor(Math.random() * key3.length)];
 var random4 = key4[Math.floor(Math.random() * key4.length)];
-var UserString = document.getElementById('sampleUserInput').value;
+var UserString = document.fm.sampleUserInput.value;
+   
 var UserString = UserString + random + random1 + random2 + random3 + random4;
-   document.getElementById('sampleInputedList').value += UserString + "\n";
+   document.fm.sampleUserInput.value += UserString + "\n";
  
 }
 
