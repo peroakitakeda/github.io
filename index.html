@@ -8,7 +8,35 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <meta name="description" content="youtubeで大流行中と話題の一同驚愕風のタイトルをボタン一つで出来るサイトです">
 　<meta name="robots" content="noindex,nofollow">
-  <script type="text/javascript" src=“scri.js"></script>                                         
+  < script  type = " text / javascript " >
+function  AddStringToTextarea（）{
+VaRの KEY0 = [ 'が馬場豊に対し激怒した理由に'、'がもこうに対して放った言葉に'、'が放った一言に'、'が激怒した理由に'、」が見せました気遣いに'、'がタモリに対して取った態度に'、'がLemonを食べている姿に'、'がビートたけしに驚きの一言で'、'が今のお気持ちを表し'、'が謝罪後に松本人志の放った一言に'、'が沈黙を破った理由に'、'が引退時に放ったある言葉に'];
+VaRのキー1 = [ '一同驚愕'、'涙が止まらない'、'感動の嵐！'、'世界中が絶賛！'、'称賛の嵐！'、'涙の嵐！'、"涙が止まらない、'、'「貴方、絶対に許さん」'、'「舐めてると潰すぞ」' ];
+VaRの KEY2 = [ 'ビートたけしも'、'ダウンタウンも'、'タモリも'、' SMAP仲居も'、'木村拓哉も'、'北島三郎も'、'米津玄師も'、'豊も馬場'、'ヒカキンも'、'シャムも'、'たれぞうも'、'はじめてしゃちょーも' ];
+VaRの KEY3 = [ '緊急参戦して'、'涙が溢れ出して'、'ブチキレて'、'乱闘が勃発して'、'チンパンジーと共に参戦して'、'笑顔を見せて'、"信じられない行動を起こして'、'頭を悩ませて'、'思わず本音を漏らして'、'擁護するコメントを出して'、'予想外展開に'、'批判覚悟で'、'裏の顔を除いて'、 'タモリと一緒にブチキレて' ];
+VAR KEY4 = [ '後戻りが出来ない'、'涙ナシでは語れない'、'取り返しがつかない状態になってしまう'、'裁判は避けれないか？'、"、一体何が起こったというのか？'、'日本はどうなってるのか？'、'この先、目が話せない！！'、'チンパンジーになってしまう' ];
+var random = key0 [ 数学。床（数学。ランダム（）*  KEY0。長さ）]。
+var random1 = key1 [ 数学。床（数学。ランダム（）*  KEY1。長さ）]。
+var random2 = key2 [ 数学。床（数学。ランダム（）*  KEY2。長さ）]。
+var random3 = key3 [ 数学。床（数学。ランダム（）*  KEY3。長さ）]。
+var random4 = key4 [ 数学。床（数学。ランダム（）*  KEY4。長さ）]。
+varのUserString =  ドキュメント。getElementById（' sampleUserInput '）値 ;
+VARのUserString =のUserString +ランダム+ random1 + random2 + random3 + random4。
+   ドキュメント。getElementById（' sampleInputedList '）値 + = UserString +  " \ n " ;
+ 
+}
+関数 clr（）{
+  VaRの reset_target =  ドキュメント。getElementById（" sampleInputedList "）;
+            もし（reset_target。値 ==  ' '）{
+            } 他 {
+                reset_target。値 =  ' ' ;
+            }
+}
+</ script >                                       
+
+                                              
+                                              
+                                              
 </head>
 <body>
    一同驚愕ジェネレーター<br>
@@ -20,10 +48,9 @@
 
 ◆人物名：<br>
                                               
-<FORM name="ts">
-  <INPUT size="20" type="text" name="sampleUserInput" value="ここに何か入力">
-  <input type="button" value="作成" onclick="AddStringToTextarea();">
-</FORM>
+< input  type = " text "  id = " sampleUserInput "  value = "ここに何か入力" >
+
+< input  type = " button "  value = "作成"  onclick = " AddStringToTextarea（）; " >
                                        
 <br>
 
