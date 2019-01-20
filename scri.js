@@ -16,7 +16,6 @@ var UserString = UserString + random + random1 + random2 + random3 + random4;
 }
 
 
-
 function clr(){
   var reset_target = document.getElementById("sampleInputedList");
             if(reset_target.value == ''){
